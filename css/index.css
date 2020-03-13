@@ -68,6 +68,18 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+button {
+    padding:  8px 22px;
+    border-radius: 10px;
+    background-color: #FFF;
+    color: #000;
+    border: 2px solid #000;
+    font-size: 1.03em;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #e5e5e5;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -260,18 +272,6 @@ footer nav a {
 }
 .spaced .card, .spaced .card img, .spaced .card p {
     margin-bottom: 15px;
-}
-.spaced .card button {
-    padding:  8px 22px;
-    border-radius: 10px;
-    background-color: #FFF;
-    color: #000;
-    border: 2px solid #000;
-    font-size: 1.03em;
-}
-.spaced .card button:hover {
-    cursor: pointer;
-    background-color: #e5e5e5;
 }
 
 /* #endregion */
