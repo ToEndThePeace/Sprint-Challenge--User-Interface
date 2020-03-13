@@ -75,6 +75,12 @@ p {
 .push_down {
     margin-bottom: 20px;
 }
+.pull-down {
+    padding-top: 30px;
+}
+.dash-bot {
+    border-bottom: 1px dashed #000;
+}
 /* #endregion */
 
 /* #region Header Styling */
@@ -136,6 +142,8 @@ header nav {
 }
 /* #endregion */
 
+
+/* #region  Index Code Given */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -209,3 +217,19 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* #endregion */
+
+/* #region About Page */
+.splash {
+    padding: 20px;
+}
+.spaced {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.spaced .card {
+    width: 48%;
+}
+
+/* #endregion */
