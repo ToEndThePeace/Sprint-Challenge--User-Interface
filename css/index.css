@@ -118,6 +118,8 @@ header nav a:hover {
 /* #region Banners */
 .banner img {
     width: 100%;
+    height: 153px;
+    overflow: hidden;
 }
 /* #endregion */
 
@@ -240,9 +242,21 @@ footer nav a {
     flex-flow: row wrap;
     justify-content: space-around;
 }
-.spaced .card {
+.col-1-2 {
     width: 46%;
+}
+.col-1-3 {
+    width: 28%;
+}
+.spaced .card {
     padding: 40px 0 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.spaced .card img {
+    width: 100%;
 }
 .spaced .card, .spaced .card img, .spaced .card p {
     margin-bottom: 15px;
