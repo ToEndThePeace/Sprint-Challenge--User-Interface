@@ -22,7 +22,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -72,11 +72,14 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-.push_down {
+.push-down {
     margin-bottom: 20px;
 }
 .pull-down {
     padding-top: 30px;
+}
+section.pull-down-x {
+    padding-top: 40px;
 }
 .dash-bot {
     border-bottom: 1px dashed #000;
@@ -86,19 +89,28 @@ p {
 /* #region Header Styling */
 
 header {
-    height: 70px;
-    padding: 15px 0;
+    height: 75px;
+    padding: 20px 0 15px;
     margin-bottom: 15px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
 }
 header nav {
-    width: 70%;
+    width: 80%;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
     align-items: flex-end;
+}
+header nav a {
+    color: #000;
+    text-decoration: none;
+    font-size: .9em;
+    transition: text-shadow 500ms;
+}
+header nav a:hover {
+    text-shadow: 0 0 10px #999;
 }
 
 /* #endregion */
@@ -229,7 +241,23 @@ footer nav a {
     justify-content: space-around;
 }
 .spaced .card {
-    width: 48%;
+    width: 46%;
+    padding: 40px 0 20px;
+}
+.spaced .card, .spaced .card img, .spaced .card p {
+    margin-bottom: 15px;
+}
+.spaced .card button {
+    padding:  8px 22px;
+    border-radius: 10px;
+    background-color: #FFF;
+    color: #000;
+    border: 2px solid #000;
+    font-size: 1.03em;
+}
+.spaced .card button:hover {
+    cursor: pointer;
+    background-color: #e5e5e5;
 }
 
 /* #endregion */
